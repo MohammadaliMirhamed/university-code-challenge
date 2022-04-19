@@ -22,3 +22,5 @@ For monitoring the Application you can go to the following link.
 | ```GET```      | api/v1/courses/```{course_id}```/registrations | get list of registrations | ------ |
 | ```POST```     | api/v1/courses/```{course_id}```/registrations | create new registration | ```student_id => int``` |
 | ```GET```      | api/v1/courses/```{course_id}```/registrations/```{registration_id}``` | get single registration | ------ |
+
+```there are many unimplemented endpoints```
