@@ -15,10 +15,10 @@ For monitoring the Application you can go to the following link.
 ```http://localhost/telescope```
 
 ## endpoints
-| method | route |about | parameters |
+| method         | route |about   | parameters    |
 | -------------  | -------------  | ------------- | ------------- |
 | ```GET```      | api/v1/courses | get list of courses | ------ |
 | ```GET```      | api/v1/courses/```{course_id}``` | get single course | ------ |
-| ```GET```      | api/v1/courses/```{course_id}```/registrations | get list of course registrations | ------ |
-| ```POST```     | api/v1/courses/```{course_id}```/registrations | create new registration for course | ```student_id => int``` |
+| ```GET```      | api/v1/courses/```{course_id}```/registrations | get list of registrations | ------ |
+| ```POST```     | api/v1/courses/```{course_id}```/registrations | create new registration | ```student_id => int``` |
 | ```GET```      | api/v1/courses/```{course_id}```/registrations/```{registration_id}``` | get single registration | ------ |
